@@ -1,0 +1,45 @@
+﻿<Window x:Class="Lattice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lattice"
+        mc:Ignorable="d"
+        Title="Lattice" Icon="icon.png" Height="534.324" Width="1185.263">
+    <Grid Background="#FFD1E6EC">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="199*"></RowDefinition>
+            <RowDefinition Height="31*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1121*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Execute" Name="Execute"  HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" Width="167" Height="36" FontSize="18" FontFamily="Stencil" Click="Execute_Click" Grid.Row="1" Grid.Column="0" RenderTransformOrigin="0.587,0.556" Background="#FF39A6F1" BorderBrush="#FF043C8D" Foreground="Black"/>
+        <Button Content="Exit" Name="Exit" HorizontalAlignment="Left" Margin="606,10,0,0" VerticalAlignment="Top" Width="184" Height="33" FontSize="18" FontFamily="Stencil" Click="Exit_Click" Grid.Row="1" Grid.Column="0"  Background="#FF39A6F1" BorderBrush="#FF043C8D" Foreground="Black"/>
+        <Button Content="Clear" Name="Remove" HorizontalAlignment="Left" Margin="311,10,0,0" VerticalAlignment="Top" Width="188" Height="36" FontSize="18" FontFamily="Stencil" Click="Remove_Click" Grid.Row="1" RenderTransformOrigin="0.891,-2.228" Grid.Column="0"  Background="#FF39A6F1" BorderBrush="#FF043C8D" Foreground="Black"/>
+        <Canvas Name="g"  Grid.Row="0" HorizontalAlignment="Left" Height="360" Margin="10,19,0,0" VerticalAlignment="Top" Width="780" Background="White" Grid.Column="0"/>
+        <Label Content="Input vectors:" HorizontalAlignment="Left" Margin="825,19,0,0" VerticalAlignment="Top" Height="28" Width="150" FontSize="18" FontFamily="Stencil"/>
+        <Label Content="Vector 1:" HorizontalAlignment="Left" Margin="825,60,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" RenderTransformOrigin="0.216,0.581" Height="34" Width="102"/>
+        <ComboBox Name="x1" HorizontalAlignment="Left" Margin="879,101,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <ComboBox Name="y1" HorizontalAlignment="Left" Margin="1036,101,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <ComboBox Name="x2" HorizontalAlignment="Left" Margin="879,157,0,0" VerticalAlignment="Top" Width="88" Height="38" FontFamily="Stencil" FontSize="18"/>
+        <ComboBox Name="y2" HorizontalAlignment="Left" Margin="1036,157,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <Label Content="X1:" HorizontalAlignment="Left" Margin="827,101,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+        <Label Content="X2:" HorizontalAlignment="Left" Margin="827,157,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="35" Width="42"/>
+        <Label Content="Y1:" HorizontalAlignment="Left" Margin="993,101,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+        <Label Content="Y2:" HorizontalAlignment="Left" Margin="993,157,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="35" Width="42"/>
+        <Button Content="Draw" Name="Draw" HorizontalAlignment="Left" Margin="827,11,0,0" VerticalAlignment="Top" Width="297" Height="32" FontSize="18" FontFamily="Stencil"  Background="#FF39A6F1" BorderBrush="#FF043C8D" Foreground="Black" Click="Draw_Click" Grid.Row="1"/>
+        <Label Content="Vector 2:" HorizontalAlignment="Left" Margin="825,214,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" RenderTransformOrigin="0.216,0.581" Height="34" Width="102"/>
+        <ComboBox x:Name="x1_2" HorizontalAlignment="Left" Margin="879,256,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <ComboBox x:Name="y1_2" HorizontalAlignment="Left" Margin="1036,256,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <ComboBox x:Name="x2_2" HorizontalAlignment="Left" Margin="879,312,0,0" VerticalAlignment="Top" Width="88" Height="38" FontFamily="Stencil" FontSize="18"/>
+        <ComboBox x:Name="y2_2" HorizontalAlignment="Left" Margin="1036,312,0,0" VerticalAlignment="Top" Width="88" Height="38" FontSize="18" FontFamily="Stencil"/>
+        <Label Content="X1:" HorizontalAlignment="Left" Margin="827,256,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+        <Label Content="X2:" HorizontalAlignment="Left" Margin="827,312,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+        <Label Content="Y1:" HorizontalAlignment="Left" Margin="993,256,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+        <Label Content="Y2:" HorizontalAlignment="Left" Margin="993,312,0,0" VerticalAlignment="Top" FontSize="18" FontFamily="Stencil" Height="34" Width="42"/>
+
+    </Grid>
+</Window>

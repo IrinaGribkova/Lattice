@@ -1,0 +1,15 @@
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\bin\Debug\Lattice.exe.config
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\bin\Debug\Lattice.exe
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\bin\Debug\Lattice.pdb
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.csprojAssemblyReference.cache
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\MainWindow.g.cs
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\App.g.cs
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice_MarkupCompile.cache
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice_MarkupCompile.lref
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\MainWindow.baml
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.g.resources
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.Properties.Resources.resources
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.csproj.GenerateResource.cache
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.csproj.CoreCompileInputs.cache
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.exe
+C:\Users\Ирина Грибкова\source\repos\Lattice\Lattice\obj\Debug\Lattice.pdb
